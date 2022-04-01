@@ -1,0 +1,22 @@
+.form {
+
+  &__input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+    input {
+      width: 60%;
+      outline: none;
+      border: none;
+      border-radius: 16px;
+      padding: 8px;
+    }
+
+    select {
+      outline: none;
+      width: 62%;
+      padding: 8px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+}
+td {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.boss td:first-child {
+  margin-left: 25px;
+  display: inline-block;
+  width: 89%;
+}
